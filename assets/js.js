@@ -1,14 +1,13 @@
-
 $(document).ready(function(){
 
-    var displayedButtons = ["Harry Potter", "Hermione Granger", "Ron Weasley"];
+    var displayedButtons = ["Luke Skywalker", "Darth Vader", "Ben Solo"];
 
     function displayImg(){
 
         $("#display-images").empty();
         var input = $(this).attr("data-name");
         var limit = 10;
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&7JGBbXReb0D8hovOXS06RLDASJciH3LG";   
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&7JGBbXReb0D8hovOXS06RLDASJciH3LGC";   
 
         $.ajax({
             url: queryURL, 
