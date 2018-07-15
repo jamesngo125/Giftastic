@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var displayedButtons = ["Harry Potter", "Hermione Granger", "Ron Weasley", "Professor Snape"];
+    var displayedButtons = ["Harry Potter", "Hermione Granger", "Ron Weasley", "Professor Snape", "Draco Malfoy", "Sirius Black", "Luna Lovegood", "Lord Voldemort"];
 
     function displayImg(){
 
