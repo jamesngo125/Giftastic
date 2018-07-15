@@ -17,10 +17,11 @@ label {
 }
 
 body {
-	background-image: url("../images/quote-bg-img.jpg");
-    font-family: 'Coda Caption', sans-serif;
+    background-image: url("../images/harry.jpeg");
+    font-family: 'Bad Script', cursive;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .holder {
